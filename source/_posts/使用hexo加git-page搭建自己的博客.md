@@ -25,3 +25,7 @@ tags: 博客系统搭建
   - 启动hexo服务
   
     `hexo server(s)`
+
+### 部署到gitpages
+
+- 使用
