@@ -40,4 +40,7 @@ tags: 博客系统搭建
 
       必须在配置文件的deploy:加上这个配置不然要报丢掉token异常
 
-      
+- 使用 [hexo-deployer-git](https://github.com/hexojs/hexo-deployer-git) 插件手动部署
+  - 步骤：[官方网址]( https://hexo.io/zh-cn/docs/one-command-deployment )
+  - 整体思路：使用插件提交到对应分支
+
