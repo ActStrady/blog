@@ -29,5 +29,15 @@ tags: 博客系统搭建
 ### 部署到gitpages
 
 - 使用travis-ci自动部署方式
+
   - 步骤：[官方网址](https://hexo.io/zh-cn/docs/github-pages)
+
   - 整体思路：travis-ci与github配合实现自动部署，travis-ci会把master分支进行构建（配置文件配配置的）构建到gh-pages分支上
+
+  - 遇到问题
+
+    - edge: true
+
+      必须在配置文件的deploy:加上这个配置不然要报丢掉token异常
+
+      
