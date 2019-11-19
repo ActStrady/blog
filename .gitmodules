@@ -1,0 +1,4 @@
+[submodule "themes/Butterfly"]
+	url = https://github.com/jerryc127/hexo-theme-butterfly.git
+[submodule "themes/material-x"]
+	url = https://github.com/xaoxuu/hexo-theme-material-x
