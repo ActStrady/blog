@@ -43,3 +43,7 @@ tags: 博客系统搭建
 - 使用 [hexo-deployer-git](https://github.com/hexojs/hexo-deployer-git) 插件手动部署
   - 步骤：[官方网址]( https://hexo.io/zh-cn/docs/one-command-deployment )
   - 整体思路：使用插件提交到对应分支
+
+### 一些问题
+
+- id每次clean后都是变的（这可能会导致文章评论无法获取id）
